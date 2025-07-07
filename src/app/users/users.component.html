@@ -1,0 +1,5 @@
+<ul class="users">
+  <ng-container *ngFor="let userId of userPostsByKey; trackBy: trackUserPostFn">
+    <li app-user [posts]="userPosts[userId]"></li>
+  </ng-container>
+</ul>

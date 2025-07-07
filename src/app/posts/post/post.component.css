@@ -1,0 +1,18 @@
+.post {
+  text-decoration: none;
+  color: white;
+  padding: 6px;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  background-color: rgb(39, 70, 205);
+}
+
+.post-title,
+.post-description {
+  margin: 0;
+}
+
+.post-description {
+  margin-top: 8px;
+}

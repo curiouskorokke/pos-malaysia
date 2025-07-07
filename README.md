@@ -1,27 +1,15 @@
 # PosMalaysia
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.19.
+POS malaysia interview question
 
-## Development server
+# Personal Note
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Tbh, I didn't expect the same question to be tested. I did not try this question at all as I wanted to have a true test of what I am able to grasp again. Oh well, too bad. On to the next interview!
 
-## Code scaffolding
+# Future enhancement
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Made silly mistakes along the way as I was out of touch on Javascript and it's relevant framework for 6 months. There's still room for optimization in respect to UI/UX experience and application performance
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Lazy loading for posts components in routing
+2. Handle loading and error states for API request
+3. Could possibly use route guard to fetch and load data first before permitting user to visit the page depending on desired behaviour. (In this case, don't think it's necessary)
